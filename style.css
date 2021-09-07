@@ -1,0 +1,32 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* Rules to specify
+    font-family: 'Indie Flower', cursive; 
+    font-weight: 400; */
+
+/* Root */
+:root{
+    --lavender-web: #d8ddefff;
+    --manatee: #a0a4b8ff;
+    --pewter-blue: #7293a0ff;
+    --keppel: #45b69cff;
+    --caribbean-green: #21d19fff;
+    --text: #212121;
+    --name-font: 'Indie Flower', cursive; font-size: 1.5em; font-weight: 400; letter-spacing: 0.02em;
+}
+
+/* Animations */
+.animate__fadeInLeft{
+    animation-duration: 3s;
+}
+
+/* General styling */
+body{
+    background-color: var(--lavender-web);
+}
+
+h1{
+    color: var(--text);
+    font-family: var(--name-font);
+    text-align: center;
+}
